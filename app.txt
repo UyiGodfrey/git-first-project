@@ -2,3 +2,4 @@ My first Git project is working
 This is my second line in Git
 Feature login branch update
 This change will go through Pull Request
+CI pipeline test line

@@ -1,1 +1,2 @@
 My first Git project is working
+This is my second line in Git

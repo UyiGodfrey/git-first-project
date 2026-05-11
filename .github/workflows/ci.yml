@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI-CD Pipeline (Demo)
 
 on:
   push:
@@ -12,8 +12,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Show file content
-        run: cat app.txt
+      - name: Build step (simulate)
+        run: echo "Building application..."
 
-      - name: Print message
-        run: echo "CI pipeline is running successfully"
+      - name: Test step (simulate)
+        run: echo "Running tests..."
+
+      - name: Deploy step (simulate)
+        run: echo "Deploying application to server 🚀"
